@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CodeClan News</title>
 </head>
 <body>
     <header>
@@ -24,7 +25,119 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <aside>
+            <section id="Login">
+                <h2>Login</h2>
+                <form>
+                    <label for="email_input">Email:</label><br>
+                    <input type="email" id="email_input" name="email_input"><br>
+                    <label for="pass_input">Password:</label><br>
+                    <input type="password" id="pass_input" name="pass_input">
 
+                </form>
+            </section>
+            <section id="Categories">
+                <h2>Categories</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">Latest</a>
+                        </li>
+                        <li>
+                            <a href="/">Local</a>
+                        </li>
+                        <li>
+                            <a href="/">Politics</a>
+                        </li>
+                        <li>
+                            <a href="/">Sports</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <section id="latest">
+            <hgroup>
+                <h2>Latest</h2>
+                <h3>Breaking News</h3>
+            </hgroup>
+            <div class="gallery">
+                <ul>
+                    <li>
+                        <p><img src="placeholder-image.png">
+                        This is the first line of the article. The user would be able to click on the prebiew to read more </p>
+                    </li>
+                    <li>
+                        <p><img src="placeholder-image.png">
+                        This is the first line of the article. The user would be able to click on the prebiew to read more </p>
+                    </li>
+                    <li>
+                        <p><img src="placeholder-image.png">
+                        This is the first line of the article. The user would be able to click on the prebiew to read more </p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <article>
+            <hgroup>
+                <h2>Main Article Headline</h2>
+                <h3>Author Name</h3>
+            </hgroup>
+            <main>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam leo, lacinia at nisi non, euismod finibus sem. Donec ac placerat justo. Suspendisse sit amet suscipit felis. Fusce porta ullamcorper nunc sed mollis. Nunc non lectus et enim tincidunt fringilla vel non tellus. Vivamus posuere sapien lobortis lorem porttitor porta. Vivamus convallis ligula dolor, et consequat arcu volutpat vitae. Mauris feugiat purus at vestibulum fermentum. Vivamus accumsan ipsum sed dui porta, non sollicitudin nunc pulvinar. Praesent ac ipsum cursus, varius neque ut, dictum tortor. Curabitur in nunc eu dui rhoncus porttitor. Suspendisse sagittis eros sagittis commodo vestibulum. Curabitur blandit ex sit amet orci suscipit cursus. Nulla pharetra mollis ante. Phasellus eu ipsum et ligula fermentum lacinia. Donec finibus, purus quis pharetra convallis, neque libero tempor ipsum, nec gravida purus tortor nec nulla.
+                </p>
+                <p>Etiam eleifend neque nibh, vitae tempor magna iaculis ut. Duis scelerisque aliquet urna. Nunc cursus eros nec mattis interdum. Sed maximus nibh eros, ac euismod mauris sollicitudin et. Quisque et augue condimentum, consequat lacus vitae, consectetur lorem. Morbi consectetur venenatis dolor eget suscipit. Sed ut lacus quis orci vestibulum porta eu vel libero. Curabitur aliquam condimentum risus ut vestibulum. Curabitur consectetur nunc quis quam commodo venenatis. Sed facilisis, elit nec blandit molestie, arcu magna sollicitudin tellus, quis interdum tortor leo dignissim quam. Nunc eu mattis mi, a facilisis arcu. Duis sollicitudin justo id diam dapibus varius. In finibus sagittis venenatis. Donec sit amet enim ut est condimentum vehicula quis in nunc. Sed et lacus risus.</p>
+                <p>Cras maximus eros in massa dignissim convallis. Nunc nibh nisi, maximus id nibh quis, posuere pulvinar nibh. Mauris blandit egestas vestibulum. In sollicitudin dolor velit, eget ultrices urna consequat vitae. Aenean gravida nibh eu nisi pulvinar pharetra. Fusce dictum felis mauris, et fringilla neque molestie in. Proin condimentum mauris vitae lectus dignissim ornare at vitae elit. Etiam eu lacus diam. Aenean vestibulum a ante sed sagittis.</p>
+                <p>Vivamus a turpis pharetra, ultrices nisl in, blandit augue. Quisque vulputate arcu feugiat varius interdum. Nam suscipit ut neque sit amet maximus. Sed sodales nulla sit amet consequat placerat. Fusce at egestas diam, nec tempor magna. Vestibulum a suscipit nisi. Pellentesque luctus tortor id molestie laoreet. Proin non felis venenatis, gravida risus non, placerat eros. Sed a lectus vitae quam feugiat volutpat.</p>
+                <p>Fusce cursus ultrices enim pretium tempus. Donec consequat malesuada ex sit amet rhoncus. Nulla iaculis magna eros, eu ornare felis rutrum in. Phasellus in nibh a enim lacinia commodo ut sit amet urna. Nunc faucibus lorem vitae tellus placerat, eu commodo orci mollis. Donec tincidunt purus nec leo malesuada viverra at quis ipsum. Ut aliquam, elit non pulvinar tincidunt, mauris lectus interdum dui, vel mattis nulla tortor ac est.</p>
+            </main>
+        </article>
+        <footer>
+            <section id="comments">
+                <h2>Comments</h2>
+                <form>
+                    <textarea rows="7" cols=100% name="comment">Enter text here....</textarea>
+                </form>
+            </section>
+            <hr>
+            <section id="posted_comments">
+                <ul>
+                    <li>
+                        <hgroup>
+                            <img src="placeholder-avatar.png" alt="commenter profile picture">
+                            <h2>Username</h2>
+                            <h3>Posted 23/03/2020</h3>
+                            <p>This was interesting. Thanks</p>
+                            <hr>
+                        </hgroup>
+                    </li>
+                    <li>
+                        <hgroup>
+                            <img src="placeholder-avatar.png" alt="commenter profile picture">
+                            <h2>Username</h2>
+                            <h3>Posted 25/03/2020</h3>
+                            <p>This was interesting. Thanks</p>
+                            <hr>
+                        </hgroup>
+                    </li>
+                    <li>
+                        <hgroup>
+                            <img src="placeholder-avatar.png" alt="commenter profile picture">
+                            <h2>Username</h2>
+                            <h3>Posted 26/03/2020</h3>
+                            <p>Thanks. I hate it.</p>
+                            <hr>
+                        </hgroup>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+    </main>
+    <footer id="footer-container">
+        <p>&copy; CodeClan 2020</p>
+    </footer>
     
 </body>
 </html>
