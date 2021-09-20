@@ -11,21 +11,34 @@ header > nav > ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+header > nav > ul > li > a{
+    text-decoration:none;
+    color:white;
+    display: block;
+    padding: 6px;
+    margin: 6px;
+    width: 90px;
+}
+
+header > nav > ul > li > a:hover{
+    background-color:;
+    color:white;
  
 }
 .gallery > ul > li > p > img{
     width:40%;
-
     float: left;
+    margin-right: 10px;
 }
 
-body > header > nav > ul > li > a{
-    text-decoration:none;
-    color:white;
-    display: block;
-    padding: 10px;
-    margin:10px;
+.gallery > ul  {
+    margin: 0;
+    padding: 0;
 }
+
+
 body > main{
     width: 70%;
     margin: auto;
@@ -33,10 +46,12 @@ body > main{
 
 .gallery > ul{
     list-style-type: none;
+    margin: 0;
 }
 
 .gallery > ul > li{
     display: table-row;
+    margin: 0;
 }
 
 .gallery > ul > li> img{
@@ -48,6 +63,15 @@ textarea{
     resize:vertical;
     overflow: auto ;
     width: 100%;
+}
+
+#posted_comments > ul > li{
+    list-style: none;
+}
+
+#posted_comments > ul > li > hgroup > img{
+    width: 60px;
+    height: auto;
 }
 
 #footer-container{
